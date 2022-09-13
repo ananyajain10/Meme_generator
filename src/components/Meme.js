@@ -28,7 +28,7 @@ function Meme() {
       ...preValue,
       memes: url,
     }));
-    console.log(url)
+    console.log(url);
   }
 
   return (
@@ -56,9 +56,9 @@ function Meme() {
       </button>
       <div className="meme">
         <img className="meme-image" alt="Meme" src={meme.memes} />
-         <h2 className="meme--text top">{meme.topText}</h2>
-        <h2 className="meme--text bottom">{meme.bottomText}</h2> 
-        </div>
+        <h2 className="meme--text top">{meme.topText}</h2>
+        <h2 className="meme--text bottom">{meme.bottomText}</h2>
+      </div>
     </div>
   );
 }
